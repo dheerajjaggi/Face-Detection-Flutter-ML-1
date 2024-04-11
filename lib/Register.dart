@@ -541,7 +541,7 @@ class _RegisterFaceState extends State<RegisterFace> {
                         TextButton(
                           child: const Text('OK'),
                           onPressed: () {
-                            //Navigator.of(context).pop();                            
+                            Navigator.of(context).pop();                            
                           },
                         ),
                       ],
